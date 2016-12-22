@@ -35,6 +35,11 @@
         android:layout_height="wrap_content"
         android:onClick="startInterpolatorCode"
         android:text="Interpolator-code"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startviewproty"
+        android:text="ViewPropertyAnimator"/>
 
 
 </LinearLayout>

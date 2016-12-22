@@ -1,13 +1,14 @@
 package org.loofer.animationset;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import org.loofer.animationset.code.CodeActivity;
 import org.loofer.animationset.interpolator.InterpolatorActivity;
 import org.loofer.animationset.interpolator.InterpolatorCodeActivity;
+import org.loofer.animationset.viewpropertyanimator.ViewPropertyActivity;
 import org.loofer.animationset.xml.XmlActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,5 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void startInterpolatorCode(View view) {
         startActivity(new Intent(this, InterpolatorCodeActivity.class));
+    }
+
+    public void startviewproty(View view) {
+        startActivity(new Intent(this, ViewPropertyActivity.class));
     }
 }

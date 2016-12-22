@@ -19,6 +19,7 @@
         <activity android:name=".code.CodeActivity"/>
         <activity android:name=".interpolator.InterpolatorActivity"/>
         <activity android:name=".interpolator.InterpolatorCodeActivity"/>
+        <activity android:name=".viewpropertyanimator.ViewPropertyActivity"/>
 
     </application>
 
